@@ -491,7 +491,7 @@ html_content = f"""
 """
 
 # Save the HTML file
-with open(os.path.join(current_dir, "dashboard.html"), "w") as f:
+with open(os.path.join(current_dir, "index.html"), "w") as f:
     f.write(html_content)
 
-print("Dashboard has been generated as 'dashboard.html'. You can open it in your web browser.")
+print("Dashboard has been generated as 'index.html'. You can open it in your web browser.")
